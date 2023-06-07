@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap");
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Navbar .logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 29px;
+  color: white;
+}
+.Navbar .nav ul {
+  padding: 0 20px;
+  display: flex;
+  gap: 30px;
+}
+.Navbar .nav ul li {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+}/*# sourceMappingURL=navebar.css.map */
