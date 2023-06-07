@@ -31,13 +31,13 @@
             .info {
                 h1 {
                     font-weight: 700;
-                    font-size: 25px;
+                    font-size: 1.5625rem;
                     color: #ffffff;
                     font-family: "Inter", sans-serif;
                 }
                 p {
                     font-weight: 500;
-                    font-size: 18px;
+                    font-size: 1.125rem;
                     color: white;
                     font-family: "Inter", sans-serif;
                 }
@@ -51,6 +51,40 @@
                 font-size: 1rem;
                 width: 150px;
                 height: max-content;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .Container {
+        .main {
+            width: 85%;
+            padding: 10px 25px;
+            .content-left {
+                padding-top: 300px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Container {
+        .main {
+            height: 90%;
+            width: 85%;
+            padding: 10px 25px;
+            .content-left {
+                padding-top: 70%;
+                width: 100%;
+                .info {
+                    h1 {
+                        font-size: 22px;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                }
             }
         }
     }
