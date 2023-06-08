@@ -55,3 +55,24 @@
         }
     }
 }
+@media only screen and (max-width: 1500px) and (min-width: 801px) {
+    .container {
+        .cover {
+            overflow: scroll;
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        .cover {
+            overflow: scroll;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        .cover {
+            overflow: scroll;
+        }
+    }
+}
