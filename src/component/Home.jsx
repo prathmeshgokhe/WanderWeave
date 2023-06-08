@@ -1,6 +1,7 @@
 import React from 'react'
 import "./home.scss"
 import Navbar from "./Navbar"
+import Modal from "./Modal"
 
 const Home = () => {
     return (
@@ -16,7 +17,10 @@ const Home = () => {
                             South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems. Inland safari destination Kruger National Park is populated by big game. The Western Cape offers beaches, lush winelands around Stellenbosch and Paarl, craggy cliffs at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city of Cape Town, beneath flat-topped Table Mountain
                         </p>
                     </div>
-                    <button className='button'>Read More</button>
+                    <button className='button' onClick={Modal
+                    }>Read More
+                        {/* <Modal /> */}
+                    </button>
                 </div>
                 <div className='content-right'></div>
             </div>

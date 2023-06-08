@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap");
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images//background.jpg);
+    background-size: cover;
+    background-position: center;
+    .cover {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(
+            114.47deg,
+            #ffffff -28.39%,
+            rgba(255, 255, 255, 0) -28.39%,
+            rgba(255, 255, 255, 0.35) -14.36%,
+            rgba(255, 255, 255, 0.1) -0.18%
+        );
+        backdrop-filter: blur(15px);
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        color: white;
+        padding: 40px;
+        font-family: "Inter", sans-serif;
+        button {
+            a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+            height: 40px;
+            width: 40px;
+            font-size: 30px;
+            border: none;
+            color: #ffffff;
+            background: linear-gradient(
+                114.47deg,
+                #ffffff -28.39%,
+                rgba(255, 255, 255, 0) -28.39%,
+                rgba(255, 255, 255, 0.35) -14.36%,
+                rgba(255, 255, 255, 0.1) -0.18%
+            );
+            backdrop-filter: blur(35px);
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 2.1875rem;
+            padding: 20px 0;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
